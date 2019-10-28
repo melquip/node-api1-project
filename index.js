@@ -84,6 +84,6 @@ server.get('*', (req, res) => {
 	res.status(404).json({ errorMessage: 'Page not found!' })
 });
 
-server.listen(process.env.PORT || 3000, () => {
-	console.log('Listening at port', (process.env.PORT || 3000));
+server.listen(process.env.PORT || 4000, () => {
+	console.log('Listening at port', (process.env.PORT || 4000));
 });
